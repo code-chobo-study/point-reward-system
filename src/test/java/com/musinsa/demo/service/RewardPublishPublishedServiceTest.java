@@ -1,8 +1,8 @@
 package com.musinsa.demo.service;
 
-import com.musinsa.demo.domain.RewardHistory;
-import com.musinsa.demo.domain.RewardPublish;
-import com.musinsa.demo.domain.User;
+import com.musinsa.demo.legacy.domain.RewardHistory;
+import com.musinsa.demo.legacy.domain.RewardPublish;
+import com.musinsa.demo.legacy.domain.User;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

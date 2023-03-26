@@ -2,8 +2,8 @@ package com.musinsa.demo.service;
 
 import com.musinsa.demo.common.exception.RewardServiceException;
 import com.musinsa.demo.common.exception.ServiceErrorType;
-import com.musinsa.demo.domain.RewardPublish;
-import com.musinsa.demo.domain.User;
+import com.musinsa.demo.legacy.domain.RewardPublish;
+import com.musinsa.demo.legacy.domain.User;
 import com.musinsa.demo.dto.response.RewardResponseDto;
 import jdk.jfr.Description;
 import org.junit.jupiter.api.Assertions;

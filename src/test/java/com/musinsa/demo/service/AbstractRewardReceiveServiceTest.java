@@ -1,14 +1,14 @@
 package com.musinsa.demo.service;
 
 import com.musinsa.demo.common.enums.Status;
-import com.musinsa.demo.domain.Reward;
-import com.musinsa.demo.domain.RewardPublish;
-import com.musinsa.demo.domain.Stock;
-import com.musinsa.demo.domain.User;
-import com.musinsa.demo.repository.RewardHistoryRepository;
-import com.musinsa.demo.repository.RewardPublishRepository;
-import com.musinsa.demo.repository.RewardRepository;
-import com.musinsa.demo.repository.UserRepository;
+import com.musinsa.demo.legacy.domain.Reward;
+import com.musinsa.demo.legacy.domain.RewardPublish;
+import com.musinsa.demo.legacy.domain.Stock;
+import com.musinsa.demo.legacy.domain.User;
+import com.musinsa.demo.legacy.repository.RewardHistoryRepository;
+import com.musinsa.demo.legacy.repository.RewardPublishRepository;
+import com.musinsa.demo.legacy.repository.RewardRepository;
+import com.musinsa.demo.legacy.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 

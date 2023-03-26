@@ -1,9 +1,8 @@
-package com.musinsa.demo.repository;
+package com.musinsa.demo.legacy.repository;
 
-import com.musinsa.demo.domain.Reward;
-import com.musinsa.demo.domain.RewardPublish;
-import com.musinsa.demo.domain.RewardHistory;
-import com.musinsa.demo.domain.User;
+import com.musinsa.demo.legacy.domain.RewardPublish;
+import com.musinsa.demo.legacy.domain.RewardHistory;
+import com.musinsa.demo.legacy.domain.User;
 import org.springframework.data.domain.Sort;
 import org.springframework.data.jpa.repository.JpaRepository;
 

@@ -1,4 +1,4 @@
-package com.musinsa.demo.domain;
+package com.musinsa.demo.legacy.domain;
 
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;

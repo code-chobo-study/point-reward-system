@@ -1,10 +1,10 @@
 package com.musinsa.demo.service;
 
-import com.musinsa.demo.domain.Point;
-import com.musinsa.demo.domain.RewardHistory;
-import com.musinsa.demo.domain.RewardPublish;
-import com.musinsa.demo.domain.User;
-import com.musinsa.demo.repository.RewardHistoryRepository;
+import com.musinsa.demo.legacy.domain.Point;
+import com.musinsa.demo.legacy.domain.RewardHistory;
+import com.musinsa.demo.legacy.domain.RewardPublish;
+import com.musinsa.demo.legacy.domain.User;
+import com.musinsa.demo.legacy.repository.RewardHistoryRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
