@@ -9,7 +9,7 @@ import javax.persistence.*;
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
 public class User extends DateTimeEntity {
     @Id
-    @Column(name = "reward_info_seq")
+    @Column(name = "user_no")
     @GeneratedValue
     Long userNo;
     @Column(name = "user_id")
