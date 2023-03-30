@@ -8,7 +8,7 @@ import javax.persistence.*;
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
 public class RewardPolicyMatching {
     @Id
-    @Column(name = "reward_info_seq")
+    @Column(name = "seq")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     Long seq;
 
