@@ -8,8 +8,8 @@ import java.time.LocalDateTime;
 @Entity
 @Table(name = "point_accumulate_Policy")
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
+@DiscriminatorValue("ac")
 public class PointAccumulatePolicy extends RewardPolicy{
-
     @Column(name = "accumulate_day")
     Integer accumulateDay;
 

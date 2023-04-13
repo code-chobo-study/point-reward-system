@@ -8,7 +8,8 @@ import javax.persistence.*;
 @Table(name = "reward_policy")
 @Inheritance(strategy = InheritanceType.JOINED)
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
-public class RewardPolicy extends DateTimeEntity {
+@DiscriminatorColumn(name = "policy_type") // todo : change to enum type
+public abstract class RewardPolicy extends DateTimeEntity {
     @Id
     @Column(name = "reward_info_seq")
     @GeneratedValue(strategy = GenerationType.IDENTITY)

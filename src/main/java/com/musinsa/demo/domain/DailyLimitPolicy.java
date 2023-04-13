@@ -3,6 +3,7 @@ import javax.persistence.*;
 
 @Entity
 @Table(name = "daily_limit_policy")
+@DiscriminatorValue("dl")
 public class DailyLimitPolicy extends RewardPolicy{
 
     @Column(name = "day")
