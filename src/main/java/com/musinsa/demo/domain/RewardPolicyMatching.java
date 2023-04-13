@@ -12,9 +12,11 @@ public class RewardPolicyMatching {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     Long seq;
 
-    @Column(name = "reward_info_seq")
-    Long rewardInfoSeq;
+    @ManyToOne
+    @JoinColumn(name = "reward_info_seq")
+    RewardInfo rewardInfoSeq;
 
-    @Column(name = "reward_policy_seq")
-    Long rewardPolicySeq;
+    @ManyToOne
+    @JoinColumn(name = "reward_policy_seq")
+    RewardPolicy rewardPolicySeq;
 }

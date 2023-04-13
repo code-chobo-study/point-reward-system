@@ -6,6 +6,8 @@ import lombok.AccessLevel;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
+import java.util.ArrayList;
+import java.util.List;
 
 @Entity
 @Table(name = "reward_info")
@@ -22,6 +24,7 @@ public class RewardInfo extends DateTimeEntity {
     @Column(name = "cron_expression")
     String cronExpression;
 
-    @Column(name = "policy_matching_no")
-    Long policyMatchingIngNo;
+    @JoinColumn(name = "seq")
+    @OneToMany(mappedBy = "reward_policy")
+    List<RewardPolicyMatching> rewardPolicyMatchingList = new ArrayList<>();
 }
