@@ -1,7 +1,7 @@
 package com.musinsa.demo.service;
 
-import com.musinsa.demo.domain.RewardPublish;
-import com.musinsa.demo.domain.User;
+import com.musinsa.demo.legacy.domain.RewardPublish;
+import com.musinsa.demo.legacy.domain.User;
 import com.musinsa.demo.event.Events;
 import com.musinsa.demo.event.RewardPublishedEvent;
 import lombok.RequiredArgsConstructor;

@@ -1,11 +1,11 @@
 package com.musinsa.demo.service;
 
 import com.musinsa.demo.common.enums.Status;
-import com.musinsa.demo.domain.Reward;
-import com.musinsa.demo.domain.RewardPublish;
-import com.musinsa.demo.domain.Stock;
-import com.musinsa.demo.repository.RewardPublishRepository;
-import com.musinsa.demo.repository.RewardRepository;
+import com.musinsa.demo.legacy.domain.Reward;
+import com.musinsa.demo.legacy.domain.RewardPublish;
+import com.musinsa.demo.legacy.domain.Stock;
+import com.musinsa.demo.legacy.repository.RewardPublishRepository;
+import com.musinsa.demo.legacy.repository.RewardRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Configuration;
 

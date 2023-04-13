@@ -1,9 +1,8 @@
-package com.musinsa.demo.domain;
+package com.musinsa.demo.legacy.domain;
 
 import com.musinsa.demo.common.AbstractBaseRegisterDate;
 import com.musinsa.demo.common.enums.Status;
 import lombok.*;
-import lombok.extern.slf4j.Slf4j;
 
 import javax.persistence.*;
 import java.util.ArrayList;

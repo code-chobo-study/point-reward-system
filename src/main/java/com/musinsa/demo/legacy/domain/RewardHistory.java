@@ -1,4 +1,4 @@
-package com.musinsa.demo.domain;
+package com.musinsa.demo.legacy.domain;
 
 import com.musinsa.demo.common.AbstractBaseRegisterDate;
 import lombok.*;

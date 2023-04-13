@@ -1,6 +1,6 @@
 package com.musinsa.demo.dto.response;
 
-import com.musinsa.demo.domain.RewardHistory;
+import com.musinsa.demo.legacy.domain.RewardHistory;
 import lombok.Builder;
 import lombok.Getter;
 

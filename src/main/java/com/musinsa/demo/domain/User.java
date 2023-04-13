@@ -1,20 +1,17 @@
 package com.musinsa.demo.domain;
-
-import lombok.*;
-
+import com.musinsa.demo.common.audit.DateTimeEntity;
+import lombok.AccessLevel;
+import lombok.NoArgsConstructor;
 import javax.persistence.*;
 
-
 @Entity
-@Getter
-@Builder
+@Table(name = "user")
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
-@AllArgsConstructor(access = AccessLevel.PRIVATE)
-public class User {
+public class User extends DateTimeEntity {
     @Id
     @Column(name = "user_no")
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long userNo;
-    @Column(unique = true, name = "user_id")
-    private String id;
+    @GeneratedValue
+    Long userNo;
+    @Column(name = "user_id")
+    String userId;
 }

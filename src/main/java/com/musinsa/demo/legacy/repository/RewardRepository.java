@@ -1,8 +1,7 @@
-package com.musinsa.demo.repository;
+package com.musinsa.demo.legacy.repository;
 
 import com.musinsa.demo.common.enums.Status;
-import com.musinsa.demo.domain.Reward;
-import com.musinsa.demo.domain.RewardPublish;
+import com.musinsa.demo.legacy.domain.Reward;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
